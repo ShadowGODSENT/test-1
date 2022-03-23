@@ -1,0 +1,25 @@
+#include <iostream>
+ using namespace std;
+ bool func(int, int);
+ int main()
+ {
+ int x, y;
+ cout << "Enter 'x' and 'y' ";
+cin >> x >> y;
+if (x <= 0 && x >= -2)
+{
+if (y <= 2 && y >= 0)
+{
+cout << "Точка принадлежит";
+}
+else
+{
+cout << "Точка не принадлежит";
+}
+}
+else
+{
+cout << "Точка не принадлежит";
+}
+return 0;
+ }
